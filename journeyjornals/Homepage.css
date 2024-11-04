@@ -1,0 +1,237 @@
+.header {
+    background-color: #c9e6e8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 300px;
+}
+
+.logreg {
+    display: inline-block;
+    background-color: #c9e6e8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 440px;
+    color: #f5793b;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+}
+html {
+    background-color: #c9e6e8;
+}
+.navs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+.navigator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9e6e8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f5793b;
+    margin-right: 0px;
+}
+
+.navigator:hover,
+.logreg:hover,
+.toggle-button:hover {
+    background-color: #90a6a6;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 350px;
+    padding: 10px;
+    background-color: #cccc;
+    width: 750px;
+}
+
+.latest-posts {
+    margin-top: 30px;
+}
+
+p {
+    justify-content: center;
+    text-align: justify;
+    width: 700px;
+    padding: 10px;
+}
+
+.toggle-button {
+    background-color: #c9e6e8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f5793b;
+    margin-left: 10px;
+}
+
+.like {
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.pub-interactions {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    background-color: #c9e6e8;
+    padding: 5px;
+}
+
+.publication-map {
+    display: none;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.show-map .publication-image {
+    display: none;
+}
+
+.show-map .publication-map {
+    display: block;
+}
+
+.publication-image {
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+}
+
+.publication-header {
+    padding: 10px;
+    background-color: #c9e6e8;
+}
+
+.publication {
+    margin-top: 50px;
+    border: solid black 2px;
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #c9e6e8;
+    padding: 5px;
+    color: #f5793b;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+
+/*login/regist part*/
+.box {
+    padding: 25px;
+    background-color: #c9e6e8;
+    margin: 0;
+}
+
+#myDialog {
+    padding: 0;
+}
+
+#myDialog h1 {
+    color: #f5793b;
+    text-align: center;
+    
+}
+
+#Login,
+#registdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+}
+
+form div img {
+    margin-left: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#signup,
+#log {
+    margin-left: 53px;
+}
+
+img {
+    height: 25px;
+    width: 25px;
+}
+
+form div img {
+    margin-left: 10px;
+    margin-bottom: 9px;
+}
+
+.button {
+    background-color: #c9e6e8;
+    color: #f5793b;
+    padding: 10px;
+}
+.button:hover{
+    background-color: #90a6a6;
+}
+#alert {
+    color: red;
+    font-style: italic;
+    font-size: 15px;
+}
+

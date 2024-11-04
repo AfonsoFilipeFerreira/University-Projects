@@ -1,0 +1,170 @@
+html {
+    background-color: #c9e6e8;
+}
+
+.header {
+    background-color: #c9e6e8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80px;
+    width: 300px;
+}
+
+.navs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    font-weight: bold;
+}
+
+.navigator {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c9e6e8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #f5793b;
+    margin-right: 0px;
+}
+
+.navigator:hover,
+.logreg:hover,
+.toggle-button:hover {
+    background-color: #90a6a6;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 350px;
+    padding: 10px;
+    background-color: #cccc;
+    width: 750px;
+}
+
+.publication-header {
+    padding: 10px;
+    background-color: #c9e6e8;
+}
+
+.publication {
+    margin-top: 50px;
+    border: solid black 2px;
+}
+
+.publication-image {
+    width: 700px;
+    height: 500px;
+    padding: 10px;
+}
+
+.publication-map {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+p {
+    justify-content: center;
+    text-align: justify;
+    width: 700px;
+    padding: 10px;
+}
+
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    background-color: #c9e6e8;
+    padding: 5px;
+    color: #f5793b;
+    position: absolute;
+    left: 0;
+    right: 0;
+}   
+
+/*Drop down menu*/
+
+.hp {
+    display: inline-block;
+    background-color: #c9e6e8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #f5793b;
+    font-weight: bold;
+    margin-left: 300px;
+}
+
+.user-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.arrow {
+    cursor: pointer;
+    padding: 5px;
+    color: #f5793b;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #c9e6e8;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #f5793b;
+}
+
+.dropdown-content a:hover {
+    background-color: #90a6a6;
+}
+
+.user-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* change the buttons to change the profile picture*/
+
+.custom-button {
+    background-color: #c9e6e8;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border: black solid 1px;
+    width: 200px;
+    margin-left: 255px;
+}
+
+.custom-button:hover {
+    background-color: #90a6a6;
+}
