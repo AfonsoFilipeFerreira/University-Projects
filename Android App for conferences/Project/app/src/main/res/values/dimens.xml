@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="session_title_margin_top">75dp</dimen>
+</resources>

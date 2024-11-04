@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Changed to dark background */
+    color: #fff; /* Changed to white text color */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    background: #444; /* Dark background for container */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #fff; /* Ensures text inside container is white */
+}
+
+header {
+    background: #222; /* Dark background for header */
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a {
+    color: #0779e4;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #fff; /* White color for headings */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+}
+
+label, input, textarea, button {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input, textarea {
+    border: 1px solid #ccc;
+    background-color: #555; /* Dark background for input fields */
+    color: #fff; /* White text color for input fields */
+}
+
+button {
+    background-color: #0779e4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #055bb5;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    color: #fff; /* White text color for table */
+}
+
+th, td {
+    border: 1px solid #555; /* Dark border for table cells */
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #666; /* Dark background for table headers */
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Additional Styles */
+.dashboard {
+    padding: 20px;
+}
+
+.dashboard nav a {
+    display: block;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.dashboard nav a:hover {
+    background-color: #0779e4;
+}
+
+.dashboard-content {
+    padding: 20px;
+    background: #444; /* Dark background for dashboard content */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-top: 20px;
+}
